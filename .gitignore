@@ -1,0 +1,19 @@
+# Ignore environment variable files containing sensitive information
+.env
+env
+secrets.h
+
+# macOS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary and swap files
+*~
+
+# Vim swap files
+*.swp
+
+# IDE project files
+.idea/
+.vscode/
