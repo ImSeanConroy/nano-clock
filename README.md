@@ -4,21 +4,6 @@ A compact, internet-connected digital clock built with the Seeed Studio XIAO ESP
 
 ![Project Image](https://github.com/ImSeanConroy/nano-clock/blob/main/.github/repo-img.png)
 
-## Getting Started
-
-1. **Purchase Required Components** - To build the Nano Clock, you will need the following components and a 3D printer:
-- [Seeed Studio XIAO ESP32S3](https://thepihut.com/products/seeed-studio-xiao-esp32s3?variant=42421895102659)
-- [0.91-inch SSD1306 OLED display (128x32 resolution)](https://thepihut.com/products/0-91-oled-display-module)
-- [Wires and connectors as needed](https://thepihut.com/products/prototyping-wire-spool-set)
-
-1. **Download STL Files** - Obtain the necessary 3D printable files from the project repository.
-
-2. **Slice and Print** - Slice and print the case files in your chosen color, Adjusting print settings based on your printer and filament type.
-
-3. **Soldering and Assembly** - Solder the OLED display to the XIAO ESP32S3 and assemble the components into the 3D printed case.
-
-4. **Install Firmware** - Download and install either `internet_clock` or `basic_clock` configuring wifi credential or time resectively
-
 ## Features and Future Improvements
 
 This project is considered complete, the following outlines the current features and potential future improvements:
@@ -31,6 +16,24 @@ This project is considered complete, the following outlines the current features
 ### Future Improvements
 - Offline Mode with Manual Configuration Button: Allow users to set the time manually without requiring an internet connection.
 - Temperature Sensor Integration: Add a sensor to display real-time temperature readings on the OLED.
+- IoT intergration: Look at possible IoT intergration to sending and recieving messages or alerts.
+- Custom PCB Design or Improved design: Research creating custom PCB or design case for easier assembly.
+
+## Getting Started
+
+1. **Get the Components** - Purchase the components from the BOM and a compatible board.
+2. **3D Print the Case** - Download the STL files for your chosen configuration and print them on a 3D printer.
+3. **Assemble the Hardware** - Solder the components and assemble the board and case.
+4. **Upload the Firmware** - Connect the board via USB and upload the firmware.
+
+## Required Components
+
+The following are the required components to build the nano clock:
+
+| Quantity | Component | Description | Source |
+| - | - | - | - |
+| 1 | Seeed XIAO ESP32C3 | Microcontroller board | [PiHut](https://thepihut.com/products/seeed-xiao-esp32c3?variant=53975115661697) |
+| 1 | 0.91" OLED Display Module | Display | [Amazon](https://www.amazon.co.uk/DollaTek-Display-SSD1306-3-3V-5V-Arduino/dp/B07MHGPNVT/ref=sr_1_6) |
 
 ## Contributing
 
